@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http:/.netlify/functions/api",
+  baseURL: "https://schedulock.netlify.app/.netlify/functions/api",
 });
 
 const getSchedules = async (roomId) => {
